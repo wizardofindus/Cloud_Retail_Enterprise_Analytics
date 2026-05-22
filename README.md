@@ -8,12 +8,12 @@ This project demonstrates an end-to-end cloud-based retail analytics workflow de
 
 The solution covers:
 
-Cloud data ingestion
-ETL pipeline automation
-SQL-based KPI analysis
-Python analytics integration
-Interactive Power BI dashboarding
-Cloud dashboard publishing using Power BI Service (Fabric)
+* Cloud data ingestion
+* ETL pipeline automation
+* SQL-based KPI analysis
+* Python analytics integration
+* Interactive Power BI dashboarding
+* Cloud dashboard publishing using Power BI Service (Fabric).
 
 
 ## Architecture Workflow:
@@ -38,9 +38,9 @@ Power BI Service (Fabric)
 <img width="1693" height="929" alt="End to end Cloud Retail Analytics Architecture" src="https://github.com/user-attachments/assets/625dcc91-18cd-4f5a-9910-24a331824183" />
 
 
-## Tech Stack:
+ **Tech Stack:**
 
-**Technology**	              **Purpose**
+   Technology	              Purpose
 Azure Blob Storage	       Raw data storage
 Azure Data Factory	       ETL pipeline
 Azure SQL Database	       Cloud database
@@ -54,111 +54,112 @@ Power BI Service (Fabric)	 Cloud reporting
 
 **Key Features:**
 
-Cloud-based ETL workflow
-Advanced SQL KPI analysis
-Data validation using SQL
-SQL views for Power BI reporting
-Python integration with Azure SQL
-Interactive Power BI dashboards
-DAX measures for business KPIs
-Cloud dashboard publishing & monitoring
+* Cloud-based ETL workflow
+* Advanced SQL KPI analysis
+* Data validation using SQL
+* SQL views for Power BI reporting
+* Python integration with Azure SQL
+* Interactive Power BI dashboards
+* DAX measures for business KPIs
+* Cloud dashboard publishing & monitoring.
 
 
 **SQL Analytics Performed:**
 
-Revenue analysis
-Profit margin calculation
-Regional performance analysis
-Customer ranking
-Trend analysis
-KPI engineering
-Business metrics generation
+* Revenue analysis
+* Profit margin calculation
+* Regional performance analysis
+* Customer ranking
+* Trend analysis
+* KPI engineering
+* Business metrics generation.
 
 **Advanced SQL Concepts Used:**
 
-Window Functions
-ROW_NUMBER()
-CTEs
-Aggregate Functions
-CASE Statements
-SQL Views
+* Window Functions
+* ROW_NUMBER()
+* CTEs
+* Aggregate Functions
+* CASE Statements
+* SQL Views
 	
 **Python Integration**
 
 Python scripts were used for:
 
-SQL connectivity
-KPI automation
-Trend analysis
-Data validation
-Enhanced analytics
+* SQL connectivity
+* KPI automation
+* Trend analysis
+* Data validation
+* Enhanced analytics
 
 **Libraries used:**
 
-pandas
-pyodbc
-matplotlib
+* pandas
+* pyodbc
+* matplotlib
 
 
 **Power BI Dashboard:**
 
-Dashboard Features
-KPI Cards
-Revenue Trend Analysis
-Regional Sales Analysis
-Category Performance
-Interactive Filters & Slicers
-Business Insights Visualization
-DAX Measures
+* Dashboard Features
+* KPI Cards
+* Revenue Trend Analysis
+* Regional Sales Analysis
+* Category Performance
+* Interactive Filters & Slicers
+* Business Insights Visualization
+* DAX Measures
 
 ## Business Insights:
 
 **Revenue Insights:**
 
-West region generated the highest overall revenue contribution.
-Technology category achieved the strongest sales performance across all product segments.
-Seasonal sales spikes were observed during year-end periods.
+* West region generated the highest overall revenue contribution.
+* Technology category achieved the strongest sales performance across all product segments.
+* Seasonal sales spikes were observed during year-end periods.
 
 **Profitability Insights:**
 
-Furniture category showed comparatively lower profit margins despite strong sales volume.
-High discounting impacted profitability in certain sub-categories.
-Technology products delivered the highest profit contribution.
+* Furniture category showed comparatively lower profit margins despite strong sales volume.
+* High discounting impacted profitability in certain sub-categories.
+* Technology products delivered the highest profit contribution.
 
 **Customer & Regional Insights:**
 
-A small group of repeat customers contributed significantly to total revenue.
-Regional sales performance varied considerably across markets.
-Certain regions showed high sales but relatively lower profitability, indicating operational inefficiencies.
+* A small group of repeat customers contributed significantly to total revenue.
+* Regional sales performance varied considerably across markets.
+* Certain regions showed high sales but relatively lower profitability, indicating operational inefficiencies.
 
 **Operational Insights:**
 
-SQL validation identified negative-profit transactions requiring further business review.
-KPI dashboards enabled centralized executive monitoring and faster business decision-making.
-Cloud-based reporting improved accessibility and automated dashboard refresh workflows.
+* SQL validation identified negative-profit transactions requiring further business review.
+* KPI dashboards enabled centralized executive monitoring and faster business decision-making.
+* Cloud-based reporting improved accessibility and automated dashboard refresh workflows.
 
 **Power BI Service (Fabric)**
 
 Published dashboards to Power BI Service for:
 
-Cloud dashboard hosting
-Scheduled refresh
-Dashboard sharing
-Monitoring & accessibility
+* Cloud dashboard hosting
+* Scheduled refresh
+* Dashboard sharing
+* Monitoring & accessibility
 
 
 **Key Learnings:**
 
-Cloud analytics workflow design
-ETL orchestration using Azure Data Factory
-Advanced SQL for business analytics
-Power BI dashboard storytelling
-KPI engineering
-Cloud BI deployment
+* Cloud analytics workflow design
+* ETL orchestration using Azure Data Factory
+* Advanced SQL for business analytics
+* Power BI dashboard storytelling
+* KPI engineering
+* Cloud BI deployment
 
 ## Dashboard Preview:
 <img width="1364" height="575" alt="Power BI Service_1" src="https://github.com/user-attachments/assets/c58d450c-b759-4e02-93a2-9de81235e8d7" />
 
 
 **Author:**
+
 Sayan Mukherjee
