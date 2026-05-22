@@ -1,8 +1,8 @@
-Cloud Retail Enterprise Analytics 
+# Cloud Retail Enterprise Analytics 
 
-End-to-End Cloud Analytics Project using Azure, SQL, Python & Power BI
+## End-to-End Cloud Analytics Project using Azure, SQL, Python & Power BI
 
-Project Overview:
+### Project Overview:
 
 This project demonstrates an end-to-end cloud-based retail analytics workflow designed to simulate a real-world enterprise Business Intelligence solution.
 
@@ -16,7 +16,7 @@ Interactive Power BI dashboarding
 Cloud dashboard publishing using Power BI Service (Fabric)
 
 
-Architecture Workflow:
+## Architecture Workflow:
 
 Raw CSV Dataset
         ↓
@@ -34,13 +34,13 @@ Power BI Desktop Dashboard
         ↓
 Power BI Service (Fabric)
 
-Architecture Diagram:
+## Architecture Diagram:
 <img width="1693" height="929" alt="End to end Cloud Retail Analytics Architecture" src="https://github.com/user-attachments/assets/625dcc91-18cd-4f5a-9910-24a331824183" />
 
 
-Tech Stack:
+## Tech Stack:
 
-Technology	                    Purpose
+**Technology**	              **Purpose**
 Azure Blob Storage	       Raw data storage
 Azure Data Factory	       ETL pipeline
 Azure SQL Database	       Cloud database
@@ -52,7 +52,7 @@ DAX	                       KPI calculations
 Power BI Service (Fabric)	 Cloud reporting
 
 
-Key Features:
+**Key Features:**
 
 Cloud-based ETL workflow
 Advanced SQL KPI analysis
@@ -64,7 +64,7 @@ DAX measures for business KPIs
 Cloud dashboard publishing & monitoring
 
 
-SQL Analytics Performed:
+**SQL Analytics Performed:**
 
 Revenue analysis
 Profit margin calculation
@@ -74,7 +74,7 @@ Trend analysis
 KPI engineering
 Business metrics generation
 
-Advanced SQL Concepts Used:
+**Advanced SQL Concepts Used:**
 
 Window Functions
 ROW_NUMBER()
@@ -83,7 +83,7 @@ Aggregate Functions
 CASE Statements
 SQL Views
 	
-Python Integration
+**Python Integration**
 
 Python scripts were used for:
 
@@ -93,14 +93,14 @@ Trend analysis
 Data validation
 Enhanced analytics
 
-Libraries used:
+**Libraries used:**
 
 pandas
 pyodbc
 matplotlib
 
 
-Power BI Dashboard:
+**Power BI Dashboard:**
 
 Dashboard Features
 KPI Cards
@@ -111,33 +111,33 @@ Interactive Filters & Slicers
 Business Insights Visualization
 DAX Measures
 
-Business Insights:
+## Business Insights:
 
-Revenue Insights:
+**Revenue Insights:**
 
 West region generated the highest overall revenue contribution.
 Technology category achieved the strongest sales performance across all product segments.
 Seasonal sales spikes were observed during year-end periods.
 
-Profitability Insights:
+**Profitability Insights:**
 
 Furniture category showed comparatively lower profit margins despite strong sales volume.
 High discounting impacted profitability in certain sub-categories.
 Technology products delivered the highest profit contribution.
 
-Customer & Regional Insights:
+**Customer & Regional Insights:**
 
 A small group of repeat customers contributed significantly to total revenue.
 Regional sales performance varied considerably across markets.
 Certain regions showed high sales but relatively lower profitability, indicating operational inefficiencies.
 
-Operational Insights:
+**Operational Insights:**
 
 SQL validation identified negative-profit transactions requiring further business review.
 KPI dashboards enabled centralized executive monitoring and faster business decision-making.
 Cloud-based reporting improved accessibility and automated dashboard refresh workflows.
 
-Power BI Service (Fabric)
+**Power BI Service (Fabric)**
 
 Published dashboards to Power BI Service for:
 
@@ -147,7 +147,7 @@ Dashboard sharing
 Monitoring & accessibility
 
 
-Key Learnings:
+**Key Learnings:**
 
 Cloud analytics workflow design
 ETL orchestration using Azure Data Factory
@@ -156,9 +156,9 @@ Power BI dashboard storytelling
 KPI engineering
 Cloud BI deployment
 
-Dashboard Preview:
+## Dashboard Preview:
 <img width="1364" height="575" alt="Power BI Service_1" src="https://github.com/user-attachments/assets/c58d450c-b759-4e02-93a2-9de81235e8d7" />
 
 
-Author:
+**Author:**
 Sayan Mukherjee
