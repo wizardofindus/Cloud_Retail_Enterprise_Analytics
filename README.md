@@ -16,41 +16,8 @@ The solution covers:
 * Cloud dashboard publishing using Power BI Service (Fabric).
 
 
-## Architecture Workflow:
-
-Raw CSV Dataset
-        ↓
-Azure Blob Storage
-        ↓
-Azure Data Factory (ETL Pipeline)
-        ↓
-Azure SQL Database
-        ↓
-SSMS SQL Analysis & KPI Engineering
-        ↓
-Python Analytics & Visualization
-        ↓
-Power BI Desktop Dashboard
-        ↓
-Power BI Service (Fabric)
-
 ## Architecture Diagram:
 <img width="1693" height="929" alt="End to end Cloud Retail Analytics Architecture" src="https://github.com/user-attachments/assets/625dcc91-18cd-4f5a-9910-24a331824183" />
-
-
- **Tech Stack:**
-
-   Technology	              Purpose
-Azure Blob Storage	       Raw data storage
-Azure Data Factory	       ETL pipeline
-Azure SQL Database	       Cloud database
-SSMS	                     SQL development & KPI analysis
-SQL	                       Data analysis & business metrics
-Python (pandas, pyodbc)	   Analytics & automation
-Power BI Desktop	         Dashboard development
-DAX	                       KPI calculations
-Power BI Service (Fabric)	 Cloud reporting
-
 
 **Key Features:**
 
